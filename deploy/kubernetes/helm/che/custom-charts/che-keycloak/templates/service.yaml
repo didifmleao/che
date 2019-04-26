@@ -12,6 +12,7 @@ kind: Service
 metadata:
   name: "keycloak"
 spec:
+  type: LoadBalancer
   ports:
   - name: "5050"
     port: 5050
